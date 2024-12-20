@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-n4js') {
+orgs.newOrg('technology.n4js', 'eclipse-n4js') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
