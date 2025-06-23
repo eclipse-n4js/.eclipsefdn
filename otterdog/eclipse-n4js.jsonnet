@@ -11,9 +11,7 @@ orgs.newOrg('technology.n4js', 'eclipse-n4js') {
     orgs.newRepo('n4js') {
       allow_update_branch: false,
       code_scanning_default_languages+: [
-        "javascript",
         "javascript-typescript",
-        "typescript"
       ],
       code_scanning_default_setup_enabled: true,
       default_branch: "master",
@@ -35,9 +33,7 @@ orgs.newOrg('technology.n4js', 'eclipse-n4js') {
       allow_merge_commit: true,
       allow_update_branch: false,
       code_scanning_default_languages+: [
-        "javascript",
         "javascript-typescript",
-        "typescript"
       ],
       code_scanning_default_setup_enabled: true,
       default_branch: "master",
